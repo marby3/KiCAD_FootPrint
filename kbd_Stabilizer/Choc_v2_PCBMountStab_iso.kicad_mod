@@ -1,10 +1,10 @@
 (footprint "Choc_v2_Stab_iso"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "SW2"
-		(at -3.556 0 -90)
+		(at -3.556 0 270)
 		(layer "B.SilkS")
 		(hide yes)
 		(uuid "b84ea0c8-e621-4dfd-a7b2-6b5759dc682a")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "KEY_SWITCH"
-		(at 8.12 -6.997501 -90)
+		(at 8.12 -6.997501 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2f04cd5b-21a3-4e46-ad21-45ad764432bf")
@@ -28,20 +28,8 @@
 			)
 		)
 	)
-	(property "Footprint" "Choc_v2_Stab_iso"
-		(at 0 0 -90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cffaf793-78d1-4349-8607-45884e18cff9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -49,11 +37,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -156,8 +146,8 @@
 		(uuid "44e9f976-0ae8-4515-83df-b4ebabf73957")
 	)
 	(fp_line
-		(start -14.2875 -19.05)
-		(end -14.2875 0)
+		(start -16.66875 -19.05)
+		(end -16.66875 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -166,7 +156,7 @@
 		(uuid "6598d6dc-f69b-48e5-9c69-e9cb00af0040")
 	)
 	(fp_line
-		(start -14.2875 0)
+		(start -16.66875 0)
 		(end -11.90625 0)
 		(stroke
 			(width 0.1)
@@ -317,7 +307,7 @@
 	)
 	(fp_line
 		(start 11.90625 -19.05)
-		(end -14.2875 -19.05)
+		(end -16.66875 -19.05)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -339,28 +329,29 @@
 		(at -8.24 -11.9 90)
 		(size 3 4)
 		(drill oval 3 4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "8c3701c9-1522-4230-b800-79f965805498")
 	)
 	(pad "" np_thru_hole oval
 		(at -8.24 11.9 90)
 		(size 3 4)
 		(drill oval 3 4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e2de095a-c4f8-44bc-b972-e2851834ed9e")
 	)
-	(pad "" np_thru_hole circle
-		(at 6 -11.9 90)
-		(size 3.2 3.2)
-		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+	(pad "" np_thru_hole oval
+		(at 6.1 -11.9 90)
+		(size 3.2 3.4)
+		(drill oval 3.2 3.4)
+		(layers "*.Cu" "*.Mask")
 		(uuid "9f22587b-6ce5-4c8c-8a76-d23ac3c4759e")
 	)
-	(pad "" np_thru_hole circle
-		(at 6 11.9 90)
-		(size 3.2 3.2)
-		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+	(pad "" np_thru_hole oval
+		(at 6.1 11.9 90)
+		(size 3.2 3.4)
+		(drill oval 3.2 3.4)
+		(layers "*.Cu" "*.Mask")
 		(uuid "22710efb-fd2b-43de-b554-8c5c95152739")
 	)
+	(embedded_fonts no)
 )

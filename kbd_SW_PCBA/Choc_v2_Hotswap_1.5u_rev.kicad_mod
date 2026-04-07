@@ -1,4 +1,4 @@
-(footprint "Choc_v2_Hotswap_1u"
+(footprint "Choc_v2_Hotswap_1.5u_rev"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -77,7 +77,7 @@
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
-		(uuid "b849e375-da55-478b-9e88-d4a566a6e136")
+		(uuid "288a23ff-2581-4487-8460-9e5aecc0e2e2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -91,7 +91,7 @@
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
-		(uuid "19aba7b4-a9bf-4660-8a3f-20aa7cc2c264")
+		(uuid "6a19d4dd-3ff9-4530-9c38-a93b3a67c141")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -968,8 +968,8 @@
 		(uuid "71d5ee01-8976-4564-8b79-1f62a8f7a152")
 	)
 	(fp_line
-		(start -9.525 -9.525)
-		(end 9.525 -9.525)
+		(start -14.2875 -9.525)
+		(end 14.2875 -9.525)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -978,8 +978,8 @@
 		(uuid "d0dfd7c1-401d-4f64-8463-f4c0813ac28f")
 	)
 	(fp_line
-		(start -9.525 9.525)
-		(end -9.525 -9.525)
+		(start -14.2875 9.525)
+		(end -14.2875 -9.525)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1068,8 +1068,8 @@
 		(uuid "825c70b0-4860-42b7-97dc-86bfa46e06fd")
 	)
 	(fp_line
-		(start 9.525 -9.525)
-		(end 9.525 9.525)
+		(start 14.2875 -9.525)
+		(end 14.2875 9.525)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1078,8 +1078,8 @@
 		(uuid "23e66461-bcf2-4335-93c2-5c91dfd00187")
 	)
 	(fp_line
-		(start 9.525 9.525)
-		(end -9.525 9.525)
+		(start 14.2875 9.525)
+		(end -14.2875 9.525)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1116,16 +1116,16 @@
 		(uuid "16ded395-a862-4198-b3af-ba8c7fb298bb")
 	)
 	(pad "1" smd rect
-		(at 8.35 3.7 180)
-		(size 3 3.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
-	)
-	(pad "2" smd rect
 		(at -3.55 5.9 180)
 		(size 3 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	)
+	(pad "2" smd rect
+		(at 8.35 3.7 180)
+		(size 3 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
 	)
 	(embedded_fonts no)
 )

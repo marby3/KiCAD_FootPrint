@@ -1,4 +1,4 @@
-(footprint "Choc_v2_Hotswap_1u"
+(footprint "Choc_v2_Hotswap_1u_rev"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -1116,16 +1116,16 @@
 		(uuid "16ded395-a862-4198-b3af-ba8c7fb298bb")
 	)
 	(pad "1" smd rect
-		(at 8.35 3.7 180)
-		(size 3 3.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
-	)
-	(pad "2" smd rect
 		(at -3.55 5.9 180)
 		(size 3 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	)
+	(pad "2" smd rect
+		(at 8.35 3.7 180)
+		(size 3 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
 	)
 	(embedded_fonts no)
 )

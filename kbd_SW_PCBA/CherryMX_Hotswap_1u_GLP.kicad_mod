@@ -1,10 +1,10 @@
-(footprint "CherryMX_Hotswap_1u"
+(footprint "CherryMX_Hotswap_1u_GLP"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 4 0)
+		(at -4.3 -2 0)
 		(layer "F.SilkS")
 		(uuid "94f1ebe9-5cdb-4e2a-a944-b80559c56b8e")
 		(effects
@@ -445,9 +445,9 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0 270)
-		(size 4 4)
-		(drill 4)
-		(layers "*.Cu" "*.Mask" "B.SilkS")
+		(size 5 5)
+		(drill 5)
+		(layers "F&B.Cu" "*.Mask" "B.SilkS")
 		(uuid "6764b0fc-c3d3-4abc-b9e6-ab81dcb1b949")
 	)
 	(pad "" np_thru_hole circle
